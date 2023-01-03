@@ -5,6 +5,7 @@
 }
 body {
      background: rgb(255, 255, 255);
+     direction: rtl;
 }
 .container {
      font-size: 8px;
