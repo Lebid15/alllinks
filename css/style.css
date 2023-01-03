@@ -33,6 +33,7 @@ body {
      padding: 10px 10px;
      border-radius: 20px;
      cursor: pointer;
+     width: 350px;
 }
 .cards:hover {
      background: rgb(124, 128, 0);
