@@ -7,7 +7,7 @@ body {
      background-size: cover;
 }
 .container {
-     font-size: 12px;
+     font-size: 8px;
      display: flex;
      flex-wrap: wrap;
      width: 100%;
@@ -19,35 +19,40 @@ body {
 .cardLink {
      text-decoration: none;
      color: white;
-     margin: 20px auto;
+     margin: 5px auto;
 }
 
 .cards {
-     background: rgb(0, 124, 169);
+     background: rgb(199, 37, 37);
      color: white;
      display: flex;
      flex-wrap: wrap;
      text-decoration-style: none;
      justify-content: space-between;
      align-items: center;
-     padding: 10px 10px;
+     padding: 7px 7px;
      border-radius: 20px;
      cursor: pointer;
-     width: 350px;
+     width: 250px;
 }
 .cards:hover {
      background: rgb(124, 128, 0);
 }
 
 .cards img {
-     width: 50px;
-     height: 50px;
+     width: 40px;
+     height: 40px;
+}
+
+.logoSection {
+     justify-content: center;
+     margin: 0 auto;
+     text-align: center;
+     align-items: center;
+     align-content: center;
 }
 
 .logo {
-     width: 200px;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
+     width: 120px;
      margin: 0 auto;
 }
