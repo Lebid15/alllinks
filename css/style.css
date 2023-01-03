@@ -34,9 +34,12 @@ body {
      border-radius: 20px;
      cursor: pointer;
      width: 250px;
+     border: 1px solid rgb(255, 0, 0);
 }
 .cards:hover {
-     background: rgb(124, 128, 0);
+     background: rgb(255, 255, 255);
+     color: rgb(221, 0, 0);
+     border: 1px solid rgb(255, 0, 0);
 }
 
 .cards img {
@@ -53,6 +56,12 @@ body {
 }
 
 .logo {
-     width: 120px;
+     width: 140px;
      margin: 0 auto;
+}
+
+.rights {
+     color: rgb(141, 138, 138);
+     font-size: 12px;
+     text-align: center;
 }
